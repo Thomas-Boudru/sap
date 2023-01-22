@@ -103,6 +103,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     color: white;
+    padding: 12px
 }
 
 #logos_frontend{
