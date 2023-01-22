@@ -36,6 +36,8 @@ html{
     margin-left: 15px;
 }
 
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -81,6 +83,28 @@ body{
     margin-left: 15px;
     margin-top: 75px;
  
+  }
+
+  @media (min-width: 43em){
+    #titre_header {
+        font-size:40px;
+        margin-left: 70px;
+    }
+
+    .sentence_header {
+        font-size: 20px;
+        line-height: 25px;
+         margin-left: 70px;
+         width: 600px;
+         font-weight: 300;
+    }
+
+    h2{
+        font-size: 30px;
+        color: white;
+        margin-left: 70px;
+        margin-top: 70px;
+    }
   }
 
   /*  Body  */
@@ -232,6 +256,106 @@ body{
 #doyou {
     font-size: 25px;
     margin-top: 50px;
+}
+
+@media (min-width: 43em){
+    #do_container{
+        margin-top: -20px;
+    }
+    
+    #h3_space > legend {
+       font-size: 80px;
+    }
+    
+    .h3_space {
+        width: 450px;
+        height: 170px;
+    }
+    
+    #logos_frontend{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 15px;
+    }
+    
+    #logos_backend{
+        width: 200px;
+        margin-top: 15px;
+    }
+    
+    #logos_tools{
+        width: 250px;
+        margin-top: 15px;
+    }
+    
+    .h3_space > p {
+        font-size: 18px;
+        font-weight: 300;
+        color:white;
+        font-style: italic
+        
+    }
+    #logo_node {
+       filter: invert(100%);
+      -webkit-filter: invert(100%);
+      width:70px;
+      height: 70px
+    }
+    
+    #logo_js {
+       width:60px;
+       height: 45px
+     }
+    
+     #logo_css {
+       width:45px;
+       height: 60px
+     }
+    
+     #logo_react {
+       width:60px;
+       height: 60px
+     }
+    
+     #logo_redux {
+       width:60px;
+       height: 60px
+     }
+    
+     #logo_html {
+       width:45px;
+       height: 60px
+     }
+    
+     #logo_express{
+       width:70px;
+       height: 70px
+     }
+    
+     #logo_mongodb{
+       width:65px;
+       height: 65px
+     }
+    
+     #logo_tailwind{
+       width:65px;
+       height: 65px
+     }
+    
+     #logo_typescript{
+       width:65px;
+       height: 65px
+     }
+    
+    #sentence_laCapsule {
+        margin-top: 20px;
+        width: 500px;
+    }
+    #doyou {
+        font-size: 25px;
+        margin-top: 50px;
+    }
 }
 
 /* videos What I love */
@@ -405,7 +529,7 @@ body{
 #p_did_before {
     color : white;
     font-size: 15px;
-    width: 320px;
+    width: 350px;
     text-align: justify;
     margin-left: 15px;
 }
@@ -494,6 +618,66 @@ body{
 .reveal.active{
     opacity: 1;
   }
+
+#container_did_base{
+    height: 100px;
+  }
+  
+@media (min-width: 43em){
+    #p_did_before {
+        width: 500px;
+        margin-left: 70px;
+    }
+    
+    .containers_did {
+       width: 400px;
+    }
+    
+    
+    .titre_did {
+       font-size: 17px;
+    }
+    
+    .texte_did {
+       font-size: 15px;
+    }
+    
+    .date_did { 
+       font-size: 17px;
+    }
+    
+    .container_date {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .container_texte_date {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hidden_text {
+        overflow: hidden;
+        color: white;
+        font-size: 15px;
+        font-weight: 200;
+        text-align: justify;
+        margin: 10px 20px 10px 20px;
+    
+    }
+    
+    .reveal{
+        position: relative;
+        opacity: 0;
+        transition: 2s all ease;
+      }
+      
+    .reveal.active{
+        opacity: 1;
+      }
+    
+}
+
 
   /* Contact */
 
@@ -598,7 +782,6 @@ a:link {
 #bubble {
     font-style: italic;
     font-size: 13px;
-    margin-top: 10px;
 }
 
 #other_projects{
@@ -616,8 +799,13 @@ a:link {
   font-size: 14px;
   color: white;
   font-weight: 200;
-  
+}
 
+@media (min-width: 43em){
+    #projects_title {
+        margin: auto;
+        margin-top: 70px;
+    }
 }
 
 /* menu */
@@ -631,6 +819,10 @@ li {
 
 .navbar {
     min-height: 70px;
+}
+
+.navbar2 {
+    display: none;
 }
 
 
@@ -704,6 +896,42 @@ header {
     z-index: 100;
 }
 
+@media (min-width: 43em){ 
+
+    header {
+        position: static;
+    }
+
+    .navbar2 {
+        width: 800px;
+        display: flex;
+        margin-top: 25px;
+        
+    }
+
+    .nav2-menu {
+        width: 400px;
+        display: flex;
+        justify-content:space-between;
+        margin-left: 70px;
+    }
+
+    .nav2-item {
+        width: 300px;
+        font-size: 20px;
+        font-size: 500;
+    }
+
+    .nav2-item:hover {
+        color:rgb(249, 81, 238)
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+
+}
 /* text Circle Linkedin */
 
 #logo_linkedin{
