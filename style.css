@@ -85,10 +85,8 @@ body{
 }
 
 #h3_space > legend {
-   position: relative;
    color: white;
    font-size: 20px;
-   margin-left: 40px;
    width: auto;
 }
 
