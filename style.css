@@ -89,6 +89,7 @@ body{
    color: white;
    font-size: 20px;
    margin-left: 40px;
+   width: auto;
 }
 
 .h3_space {
@@ -533,7 +534,7 @@ a:link {
     background-color: rgba(255,255,255,0.08);
     margin-top: 50px;
     margin-bottom: 50px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .projects:hover{
@@ -544,12 +545,12 @@ a:link {
 
 #cargomentor {
     width: 350px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 #comon {
     width: 350px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .texte_titre_projects {
