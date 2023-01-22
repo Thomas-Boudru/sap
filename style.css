@@ -90,7 +90,7 @@ body{
    font-size: 20px;
    margin-left: 40px;
    width: auto;
-   background-color: #fff
+   margin-top: -20px
 }
 
 .h3_space {
@@ -104,7 +104,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     color: white;
-    padding: 12px
+    padding: 20px
 }
 
 #logos_frontend{
