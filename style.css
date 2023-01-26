@@ -156,7 +156,7 @@ body{
 
   /* What I can do */
 
-#do_container{
+#do{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -308,7 +308,7 @@ legend {
 }
 
 @media (min-width: 43em){
-    #do_container{
+    #do{
         margin-top: -20px;
     }
     
@@ -433,7 +433,7 @@ legend {
 
 /* videos What I love */
 
-#love_container {
+#love {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -709,7 +709,7 @@ legend {
 }
 
 
-#did_container {
+#did {
     display: flex;
     flex-direction: column;
     align-items: center;

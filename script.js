@@ -1,11 +1,4 @@
     
-    /*let originalHeight = 0
-
-    if (window.matchMedia("(min-width: 43em)").matches) {
-      originalHeight = '170px'
-    } else {
-      originalHeight = '100px'
-    }*/
     const containersDid = document.querySelectorAll('.containers_did')
     for(let i = 0 ; i < containersDid.length ; i++){
       let isExpanded = false
