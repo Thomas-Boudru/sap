@@ -2,6 +2,7 @@
 
 html{
     scroll-behavior: smooth;
+    
 }
 
 .bg {
@@ -42,8 +43,8 @@ body{
     display: flex;
     flex-direction: column;
     align-content: left;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     font-family: 'Ubuntu', sans-serif;
     padding: 0;
     margin: 0;
@@ -106,6 +107,50 @@ body{
         margin-top: 70px;
     }
   }
+    @media (min-width: 57em){
+        #titre_header {
+            font-size:50px;
+            margin-left: 140px;
+            line-height: 50px;;
+        }
+    
+        .sentence_header {
+            font-size: 25px;
+            line-height: 30px;
+             margin-left: 140px;
+             width: 600px;
+             font-weight: 300;
+        }
+    
+        h2{
+            font-size: 40px;
+            margin-left: 140px;
+            margin-top: 120px;
+        }
+    }
+
+    @media (min-width: 75em){
+        #titre_header {
+            font: size 60pxpx;
+            margin-left: 200px;
+            line-height: 60px;
+        }
+    
+        .sentence_header {
+            font-size: 20px;
+            line-height: 30px;
+             margin-left: 200px;
+             width: 700px;
+             font-weight: 300;
+        }
+    
+        h2{
+            font-size: 35px;
+            margin-left: 200px;
+            margin-top: 120px;
+        }
+    }
+  
 
   /*  Body  */
 
@@ -116,10 +161,12 @@ body{
     flex-direction: column;
     align-items: center;
     margin-top: -20px;
+    scroll-margin-top: 70px;
+    width: 100%;
 }
 
-#h3_space > legend {
-   color: white;
+legend {
+   color: rgb(246, 246, 125);
    font-size: 20px;
    width: auto;
 }
@@ -255,7 +302,9 @@ body{
 
 #doyou {
     font-size: 25px;
-    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+    margin-top: 35px;;
 }
 
 @media (min-width: 43em){
@@ -263,8 +312,8 @@ body{
         margin-top: -20px;
     }
     
-    #h3_space > legend {
-       font-size: 80px;
+    legend {
+       font-size: 25px;
     }
     
     .h3_space {
@@ -358,6 +407,30 @@ body{
     }
 }
 
+@media (min-width: 75em){
+    #container_stack{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:85%;
+    }
+    .h3_space {
+        margin: 25px 25px;
+    }
+
+    #sentence_laCapsule {
+        font-size: 20px;
+        margin-top: 25px;
+        width: 600;
+    }
+
+    #doyou {
+        font-size: 30px;
+
+    }
+
+}
+
 /* videos What I love */
 
 #love_container {
@@ -365,6 +438,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    scroll-margin-top: 120px;
 }
 
 .box_ski_kite {
@@ -524,6 +598,90 @@ body{
     border-radius: 20px;
 }
 
+@media (min-width: 57em){
+    .box_ski_kite {
+        display: flex;
+    }
+    
+    .box_squash_impro {
+        display: flex;
+    }
+    
+    
+    /*SKI 57EM */
+    #container_ski {
+        width: 300px;
+        height: 150px;  
+    }
+
+    #container_ski > video{
+        width: 300px;
+        height: 150px;
+    } 
+
+    #text_ski {
+        font-size: 150px;
+    }
+
+    /* SQUASH 57EM*/
+    
+    #container_squash {
+        width: 310px;
+        height: 150px      
+    }
+    
+    #container_squash > video{
+        width: 300px;
+        margin-top: 20px;   
+    }
+    
+    #text_squash {
+        font-size: 80px;
+    }
+    
+    /* Music 57EM*/
+    
+    #container_music {
+        width: 560px;
+    }
+    
+    #container_music> video{
+        width: 560px;
+    }
+    
+    #text_music {
+        font-size: 150px;
+    }
+    
+    /* Kite 57EM*/
+    
+    #container_kite {
+        width: 260px;
+    }
+    
+    #container_kite> video{
+        width:260px;
+    }
+    
+    #text_kite {
+        font-size: 110px;
+    }
+    
+    /* impro */
+    
+    #container_impro {
+        width: 250px;
+    }
+    
+    #container_impro> video{
+        width: 260px;    
+    }
+    
+    #text_impro {
+        font-size: 70px;
+    }
+    }
+
 /* What i did */
 
 #p_did_before {
@@ -556,6 +714,8 @@ body{
     flex-direction: column;
     align-items: center;
     margin-top: 15px;
+    scroll-margin-top: 180px;
+    
 }
 
 .titre_did {
@@ -675,7 +835,57 @@ body{
     .reveal.active{
         opacity: 1;
       }
+    }
+      @media (min-width: 57em){
+        #p_did_before {
+            width: 65%;
+            margin-left: 140px;
+            font-size: 18px;
+        }
+
+        #container_1{
+            margin-left:30%
+        }
+        #container_2{
+            margin-left:10%
+        }
+        #container_3{
+            margin-left:-10%
+        }
+        #container_4{
+            margin-left:-30%
+        }
     
+}
+
+@media (min-width: 57em){
+    #p_did_before {
+        width: 65%;
+        margin-left: 140px;
+        font-size: 18px;
+    }
+
+    #container_1{
+        margin-left:30%
+    }
+    #container_2{
+        margin-left:10%
+    }
+    #container_3{
+        margin-left:-10%
+    }
+    #container_4{
+        margin-left:-30%
+    }
+
+}
+
+@media (min-width: 75em){
+    #p_did_before {
+        width: 70%;
+        margin-left: 200px;
+        font-size: 20px;
+    }
 }
 
 
@@ -686,6 +896,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    scroll-margin-top: 70px;
 }
 
 .tel_mail {
@@ -709,13 +920,16 @@ a:link {
 .tel_mail:hover{
     border: 3px solid rgb(253, 126, 244);
     box-shadow: 0 0.5em 0.5em -0.4em rgb(251, 133, 243);
-    transform: translateY(-5px)
+    transform: translateY(-5px);
+    transition: 1s
 }
 
 #madewith {
     font-size: 10px;
     font-weight: 400;
 }
+
+
 
 #footer {
     background-color: rgba(255,255,255,0.08);
@@ -725,6 +939,26 @@ a:link {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 57em){
+    #madewith {
+        font-size: 12px;
+    }
+
+    #footer {
+height: 45px;
+    }
+}
+
+@media (min-width: 75em){
+    .tel_mail {
+        margin-top: 15px;
+        width: 220px;
+        height: 60px;
+        border: 3px solid rgb(249, 249, 160);
+        margin-bottom: 15px;
+}
 }
 
 
@@ -739,7 +973,7 @@ a:link {
     width: 320px;
     height: 400px;
     background-color: rgba(255,255,255,0.08);
-    margin-top: 25px;
+    margin: 60px 25px 25px 25px;
     margin-bottom: 50px;
     border-radius: 15px;
 }
@@ -747,6 +981,7 @@ a:link {
 .projects:hover{
     box-shadow: 0 0.5em 0.5em -0.2em rgb(251, 133, 243);
     transform: translateY(-5px);
+    transition: 1s;
     cursor: pointer;
 }
 
@@ -801,10 +1036,23 @@ a:link {
   font-weight: 200;
 }
 
+#row_project_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
 @media (min-width: 43em){
     #projects_title {
         margin: auto;
         margin-top: 70px;
+    }
+}
+
+@media (min-width: 57em){
+    #row_project_container {
+        flex-wrap: wrap;
     }
 }
 
@@ -819,6 +1067,7 @@ li {
 
 .navbar {
     min-height: 70px;
+    width: 100%;
 }
 
 .navbar2 {
@@ -840,8 +1089,9 @@ li {
 }
 
 .hamburger {
-     display: block;
-     margin-left: 320px;
+    display: block;
+    float: right;
+    margin-right: 35px;
      margin-top: 25px;
 }
 .hamburger.active .bar:nth-child(2){
@@ -893,6 +1143,7 @@ li {
 header {
     position: fixed;
     display: flex;
+    width: 100%;
     z-index: 100;
 }
 
@@ -902,10 +1153,15 @@ header {
         position: static;
     }
 
+    .navbar{
+        display: none;
+    }
+
     .navbar2 {
-        width: 800px;
+        width: 100%;
         display: flex;
         margin-top: 25px;
+        float: left;
         
     }
 
@@ -916,22 +1172,39 @@ header {
         margin-left: 70px;
     }
 
-    .nav2-item {
+    .nav2-link {
         width: 300px;
         font-size: 20px;
-        font-size: 500;
+        font-weight: 500;
+        color: white;
     }
 
-    .nav2-item:hover {
-        color:rgb(249, 81, 238)
-    }
+    .nav2-link:hover {
+        color: RGB(249, 81, 238);
+        transition: 0.5s
+        }
 
     .hamburger {
         display: none;
     }
-
+}
+    @media (min-width: 57em){ 
+ 
+        .nav2-menu {
+            width: 400px;
+            margin-left: 140px;
+        }
 
 }
+
+@media (min-width: 75em){ 
+ 
+    .nav2-menu {
+        width: 400px;
+        margin-left: 200px;
+    }
+}
+
 /* text Circle Linkedin */
 
 #logo_linkedin{
@@ -985,4 +1258,12 @@ header {
 #container_tableau {
     width: 300px;
     height: 150px;
+}
+
+@media (min-width: 57em){ 
+    #container_tableau {
+    width: 550px;
+    height: 250px;
+    margin-top: 25px;
+    }
 }

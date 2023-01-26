@@ -12,9 +12,11 @@
       containersDid[i].addEventListener('click', function() {  
       if(isExpanded) {
         this.style.height= '100px'
+        this.style.transition = '1s'
         isExpanded = false;
         } else {
           this.style.height= 'auto';
+          this.style.transition = '1s'
           isExpanded = true;
         }
     })
@@ -63,19 +65,25 @@
       defaultFontSize: 20,
       indexAxis: 'y',
       scales: {
-        x : { display: false, fontSize: 20,},
-        y : {ticks: { fontSize: 20, color: 'white', beginAtZero: true }, fontSize : 20}
+        x : { display: false, fontSize: 25,},
+        y : {ticks: { fontSize: 25, color: 'white', beginAtZero: true }, fontSize : 20}
       },
       plugins : {
         legend: {
-          display: false }
-          ,
+          display: false},
         tooltip: {
             enabled: false,
           },
       }
    }
 });
+
+if (window.matchMedia("(min-width: 57em)").matches) {
+  Chart.defaults.font.size = 18
+} else {
+  Chart.defaults.font.size = 12
+} 
+
 
   // texte autour linkedin //
 
