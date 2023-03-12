@@ -971,7 +971,7 @@ height: 45px;
 
 .projects{
     width: 320px;
-    height: 400px;
+    height: 470px;
     background-color: rgba(255,255,255,0.08);
     margin: 25px 25px 25px 25px;
     border-radius: 15px;
@@ -985,11 +985,13 @@ height: 45px;
 }
 
 #cargomentor {
+    height: 270px;
     width: 320px;
     border-radius: 15px 15px 0px 0px;
 }
 
 #comon {
+    height: 270px;
     width: 320px;
     border-radius: 15px 15px 0px 0px;
 }
