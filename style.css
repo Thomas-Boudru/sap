@@ -692,6 +692,14 @@ legend {
     margin-left: 15px;
 }
 
+#p {
+  color : white;
+    font-size: 15px;
+    width: 350px;
+    text-align: justify;
+    margin-left: 15px;  
+}
+
 .containers_did {
    width: 350px;
    height: 100px;
@@ -788,6 +796,12 @@ legend {
         width: 500px;
         margin-left: 70px;
     }
+
+    #p {
+        width: 500px;
+        margin-left: 70px;  
+        margin-top: 0px;
+      }
     
     .containers_did {
        width: 400px;
@@ -843,6 +857,12 @@ legend {
             font-size: 18px;
         }
 
+        #p {
+            width: 65%;
+            margin-left: 140px;
+            font-size: 18px;  
+          }
+
         #container_1{
             margin-left:30%
         }
@@ -865,6 +885,12 @@ legend {
         font-size: 18px;
     }
 
+    #p {
+        width: 65%;
+        margin-left: 140px;
+        font-size: 18px; 
+      }
+
     #container_1{
         margin-left:30%
     }
@@ -886,6 +912,13 @@ legend {
         margin-left: 200px;
         font-size: 20px;
     }
+
+    #p {
+         width: 70%;
+        margin-left: 200px;
+        font-size: 20px; 
+      }
+  
 }
 
 
@@ -1211,10 +1244,9 @@ header {
 
 /* text Circle Linkedin */
 
-#logo_linkedin{
-    width: 60px;
-    height: 60px;
-    margin-top:2px;
+#iphone{
+    width: 200px;
+    margin-top:20px;
 }
 .text-box{
     position: relative;
